@@ -1,0 +1,261 @@
+#latest {
+  margin-bottom: -150px; }
+  #latest .container .heading {
+    display: flex; }
+    #latest .container .heading .title {
+      padding: 0 1rem; }
+    #latest .container .heading a {
+      padding: 0 1rem;
+      cursor: pointer;
+      z-index: 1; }
+  #latest .container .latest-content ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    #latest .container .latest-content ul li a .post {
+      height: 245px;
+      margin: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      border-bottom: 3px solid #333;
+      overflow: hidden; }
+      #latest .container .latest-content ul li a .post .text {
+        margin: 0 10px 8px 20px; }
+        #latest .container .latest-content ul li a .post .text:hover {
+          transform: translateY(0%);
+          transition: transform 0.5s ease-in-out; }
+        #latest .container .latest-content ul li a .post .text .date {
+          opacity: 0.9; }
+        #latest .container .latest-content ul li a .post .text .title {
+          font-size: 1.5rem;
+          font-weight: 600; }
+      #latest .container .latest-content ul li a .post-1 {
+        background-image: url("../images/blogs/nemestice.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-1:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/nemestice.jpg"); }
+        #latest .container .latest-content ul li a .post-1 .text {
+          transform: translateY(55%); }
+      #latest .container .latest-content ul li a .post-2 {
+        background-image: url("../images/blogs/theinternational.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-2:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/theinternational.png"); }
+        #latest .container .latest-content ul li a .post-2 .text {
+          transform: translateY(55%); }
+      #latest .container .latest-content ul li a .post-3 {
+        background-image: url("../images/blogs/dotaplus.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-3:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/dotaplus.png"); }
+        #latest .container .latest-content ul li a .post-3 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-4 {
+        background-image: url("../images/blogs/sfm.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-4:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/sfm.png"); }
+        #latest .container .latest-content ul li a .post-4 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-5 {
+        background-image: url("../images/blogs/cache.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-5:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/cache.png"); }
+        #latest .container .latest-content ul li a .post-5 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-6 {
+        background-image: url("../images/blogs/aghanim.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-6:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/aghanim.jpg"); }
+        #latest .container .latest-content ul li a .post-6 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-7 {
+        background-image: url("../images/blogs/dpc.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-7:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/dpc.png"); }
+        #latest .container .latest-content ul li a .post-7 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-8 {
+        background-image: url("../images/blogs/dpctour.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-8:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/dpctour.png"); }
+        #latest .container .latest-content ul li a .post-8 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-9 {
+        background-image: url("../images/blogs/patch7_30.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-9:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/patch7_30.png"); }
+        #latest .container .latest-content ul li a .post-9 .text {
+          transform: translateY(72%); }
+      #latest .container .latest-content ul li a .post-10 {
+        background-image: url("../images/blogs/marci.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        #latest .container .latest-content ul li a .post-10:hover {
+          border-color: orange;
+          transition: all 0.5s ease-in-out;
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/blogs/marci.png"); }
+        #latest .container .latest-content ul li a .post-10 .text {
+          transform: translateY(72%); }
+
+#description {
+  height: 1200px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/radiant_dire5.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #e2dace; }
+  #description .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 8rem auto; }
+    #description .container .title-text {
+      line-height: 1;
+      font-size: 110px;
+      font-weight: 700; }
+      #description .container .title-text span {
+        font-size: 50px; }
+    #description .container .horizontal-divider {
+      height: 5px;
+      width: 80px;
+      background-color: orange;
+      margin: auto;
+      margin: 20px auto; }
+    #description .container .content-text {
+      width: 70%;
+      margin: auto;
+      font-size: 1.3rem; }
+    #description .container .btn {
+      width: fit-content;
+      margin: auto;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      font-weight: 500; }
+
+#choose {
+  width: 100%;
+  max-width: 100%;
+  min-height: 1250px;
+  background-size: 3500px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 40;
+  position: relative;
+  background-image: url("../images/heroes_full.jpg");
+  font-family: "Noto Sans JP", sans-serif; }
+  #choose .container {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; }
+    #choose .container .title-text {
+      font-size: 100px;
+      line-height: 1;
+      font-weight: 700; }
+      #choose .container .title-text span {
+        font-size: 50px;
+        opacity: 0.6;
+        font-weight: 550; }
+    #choose .container .content-text {
+      width: 85%;
+      margin: auto;
+      font-size: 1.48rem; }
+    #choose .container .btn {
+      width: fit-content;
+      margin: auto;
+      margin-top: 2rem;
+      margin-bottom: 3rem; }
+
+#international {
+  background-image: url("../images/dpc.jpg");
+  width: 100%;
+  min-height: 1150px;
+  margin: 0 auto 40px auto;
+  padding-bottom: 100px;
+  background-position: top;
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif; }
+  #international .container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; }
+    #international .container .content-text {
+      width: 80%;
+      margin: auto;
+      font-size: 1.4rem; }
+
+footer {
+  background-color: #000;
+  padding: 2rem;
+  margin-bottom: 0; }
+  footer .container {
+    width: 35%; }
+    footer .container .logos {
+      display: flex;
+      justify-content: space-between; }
+      footer .container .logos img {
+        max-height: 30px;
+        margin: 0px 15px 20px 15px; }
+    footer .container .content-text {
+      font-size: 0.8rem;
+      font-weight: 350;
+      font-family: "Noto Sans JP", sans-serif;
+      text-align: center;
+      opacity: 0.8; }

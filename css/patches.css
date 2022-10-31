@@ -1,0 +1,90 @@
+#patches-header,
+#login-header {
+  height: 15vh;
+  margin-bottom: 0; }
+
+#patches-content,
+#login-content {
+  font-family: "Noto Sans JP", sans-serif; }
+  #patches-content .title,
+  #login-content .title {
+    color: #ed3b1c;
+    background-color: #000;
+    padding: 2rem;
+    line-height: 1.4; }
+    #patches-content .title .container,
+    #login-content .title .container {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #patches-content .title .container .title-text,
+      #login-content .title .container .title-text {
+        font-size: 60px; }
+        #patches-content .title .container .title-text span,
+        #login-content .title .container .title-text span {
+          font-size: 45px; }
+      #patches-content .title .container select,
+      #login-content .title .container select {
+        padding: 1rem;
+        font-size: 1.4rem; }
+  #patches-content .content,
+  #login-content .content {
+    width: 70%;
+    margin: auto;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-bottom: 50px; }
+    #patches-content .content .a,
+    #patches-content .content .b,
+    #patches-content .content .c,
+    #patches-content .content .d,
+    #login-content .content .a,
+    #login-content .content .b,
+    #login-content .content .c,
+    #login-content .content .d {
+      display: none; }
+    #patches-content .content .active,
+    #login-content .content .active {
+      display: flex;
+      flex-direction: column; }
+    #patches-content .content .items,
+    #login-content .content .items {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgba(6, 37, 65, 0.3) 88.06%);
+      margin-top: 1.5rem; }
+      #patches-content .content .items .patch-title,
+      #login-content .content .items .patch-title {
+        background: linear-gradient(to right, #833312ff, #83331200);
+        border-left: 2px solid #ff5005;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Reaver", serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #fff;
+        text-shadow: 0px 0px 5px #000;
+        box-shadow: 0px 0px 30px #000;
+        padding: 12px 20px; }
+      #patches-content .content .items .updates ul li,
+      #login-content .content .items .updates ul li {
+        padding: 1rem; }
+        #patches-content .content .items .updates ul li ul,
+        #login-content .content .items .updates ul li ul {
+          list-style-type: disc;
+          list-style-position: inside; }
+          #patches-content .content .items .updates ul li ul li,
+          #login-content .content .items .updates ul li ul li {
+            color: #b0b1b1; }
+      #patches-content .content .items .updates .item-title,
+      #login-content .content .items .updates .item-title {
+        display: flex;
+        align-items: center; }
+        #patches-content .content .items .updates .item-title img,
+        #login-content .content .items .updates .item-title img {
+          box-shadow: 0px 0px 20px #000;
+          margin: 0 1rem;
+          width: 100px; }
+
+#patches-footer,
+#login-footer {
+  padding: 2rem;
+  margin-bottom: 0; }
